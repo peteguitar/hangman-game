@@ -1,0 +1,60 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Hangman Gametitle>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+ 
+ <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+
+
+
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+
+	<!--Press any key to get started!
+
+Wins: (# of times user guessed the word correctly).
+
+If the word is madonna, display it like this when the game starts: _ _ _ _ _ _ _.
+
+As the user guesses the correct letters, reveal them: m a d o _ _ a.
+
+Number of Guesses Remaining: (# of guesses remaining for the user).
+
+Letters Already Guessed: (Letters the user has guessed, displayed like L Z Y H).
+
+After the user wins/loses the game should automatically choose another word and make the user play it.-->
+
+
+</head>
+
+
+<body onload="startUp()">
+	<div class="container">
+
+	<h1>click anywhere to start</h1>
+	<input id="letter" type="text">
+	<input type="button"  value="letter" onClick="letter()"/>
+	<p id="answer"></p>
+	<p id="counter"></p>
+	<p id="stat"></p>
+
+	
+	</div>
+
+
+
+</body>
+</html>
